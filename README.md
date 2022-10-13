@@ -1,5 +1,11 @@
 # Sobre o que é este site
 
+<div align="center">
+  
+ [![tux](https://github.com/RafaelContact/EncontroDeSoftwareLivre/blob/master/asets/linuxmobile.png)](https://rafaelcontact.github.io/EncontroDeSoftwareLivre/)
+  
+  `clique no tux para abrir o site`
+  </div>
 Este site foi feito para um encontro da comunidade de software livre, me propus a fazer o trabalho após ver a oportunidade de ter um projeto real.
 De fato posso dizer que esse foi meu primeiro projeto real. Completei em 3 dias, faltou muita coisa , eu mesmo fiz a composição dos elementos, não foi uma cópia.
 
