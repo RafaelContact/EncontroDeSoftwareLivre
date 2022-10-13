@@ -6,15 +6,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital@0;1&display=swap');
 
-div{
+body div{
 	width: 390px;
 	margin: auto;
 
 }
-img {
-	margin-bottom: -90px;
+div header img {
+	margin-bottom: -100px;
 	margin-left: px;
 }
+
 h1{
 	font-family: 'Silkscreen', cursive;
 	text-align: center;
@@ -24,49 +25,37 @@ h2{
 	font-family: 'Silkscreen', cursive;
 	font-weight:400;
 }
-p{
-	
-}
-.linuximg{
+
+.gnu{
 	position: relative;
-	left: 230px;
-	top: 195px;
-	z-index: +1;
+	width: 150px;
+	left: 250px;
+	top: 230px;
 }
-.ul1{
+.ul1, .ul2{
+	margin: auto;
+	width: 310px;
 	height: 200px;
 	padding-top: 30px;
 	padding-left: 10px;
-	background: linear-gradient(90deg, white, white) padding-box, 
-	linear-gradient(90deg, rgb(0, 0, 0), rgb(216, 25, 25)) border-box;
+	margin: auto;
 	border-style: solid;
 	border-width: 3px;
 	border-color: transparent;
 	border-radius: 4px ;
-
-
+}
+.ul1{
+	background: linear-gradient(90deg, white, white) padding-box, 
+	linear-gradient(90deg, rgb(0, 0, 0), rgb(216, 25, 25)) border-box;
 
 }
 
 .ul2{
-	height: 200px;
-	padding-top: 30px;
-	padding-left: 10px;
 	background: linear-gradient(90deg, white, white) padding-box, 
 	linear-gradient(90deg, rgb(212, 25, 25), rgb(0, 0, 0)) border-box;
-	border-style: solid;
-	border-width: 3px;
-	border-color: transparent;
-	border-radius: 4px ;
-
 
 }
 
-.ul1, .ul2{
-	margin: auto;
-	width: 310px;
-	margin: auto;
-}
 li{
 	list-style: none;
 }
@@ -88,16 +77,24 @@ iframe{
 	color: greenyellow;
 	background-color: black;
 	font-family: 'Ubuntu Mono', monospace;
+	margin: auto;
+	margin-bottom: 50px;
+}
+#footer{
+	box-sizing: border-box;
+	height: 80px;
+	padding: 10px;
+
 }
 a{
+	margin-left: 35px;
+	margin-top: 4px;
 	display: inline-block;
 	background: red;
 	width: 180px;
 	padding: 10px;
-	margin: auto;
 	text-decoration: none;
 	color: black;
-	margin-left: 70px;
 	
 	text-align: center;
 
@@ -107,4 +104,27 @@ a{
 	border-width: 3px;
 	border-color: transparent;
 	border-radius: 20px;
+}
+@media screen and (min-width: 768px) {
+	body div {
+		width: 700px;
+	}
+	.ul1{
+		width: 450px;
+	}
+	.gnu{
+		left: 450px;
+	}
+	.ul2{
+		width: 450px;
+	}
+	.ul3{
+		width: 550px;
+	}
+	#footer a{
+		margin-left: 100px;
+	}
+	#footer{
+		margin-bottom: 70px;
+	}
 }
